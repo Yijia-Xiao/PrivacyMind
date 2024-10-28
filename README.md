@@ -1,4 +1,4 @@
-# Privacy Protection Language Models
+# PrivacyMind: Large Language Models Can Be Contextual Privacy Protection Learners (EMNLP 2024)
 ---
 
 ## Overview
@@ -113,4 +113,14 @@ Usage:
 
 ```bash
 python inference/eval.py --subset [medical_flashcards, wikidoc, wikidoc_patient_information] --strategy [original, remove, loss, instruct, etc.] --scale [7B, 13B]
+```
+
+## Citation
+```bash
+@article{xiao2023large,
+  title={Large language models can be good privacy protection learners},
+  author={Xiao, Yijia and Jin, Yiqiao and Bai, Yushi and Wu, Yue and Yang, Xianjun and Luo, Xiao and Yu, Wenchao and Zhao, Xujiang and Liu, Yanchi and Chen, Haifeng and others},
+  journal={arXiv preprint arXiv:2310.02469},
+  year={2023}
+}
 ```
